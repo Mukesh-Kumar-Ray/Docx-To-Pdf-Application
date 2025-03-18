@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFileWord } from "react-icons/fa6";
+import { FaFileWord } from "react-icons/fa";
 import axios from "axios";
 function Home() {
   const [selectedFile, setSelectedFile] = useState(null);
